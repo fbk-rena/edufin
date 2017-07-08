@@ -3,6 +3,7 @@ var cargarPagina = function (){
 };
 
 var splashToHome = function(){
+	e.preventdefault();
     location.href = "views/home.html";
 };
 $(document).ready(cargarPagina);

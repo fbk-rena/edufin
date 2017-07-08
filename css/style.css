@@ -5,4 +5,5 @@ azul #242D3C*/
 #mainIndex{
   background-image: url(../assets/edufin.jpg);
     background-size: cover;
+    background-position: center;
 };

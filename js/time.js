@@ -1,9 +1,3 @@
-var cargarPagina = function (){
-    setTimeout(splashToHome,4000) 
-};
-
-var splashToHome = function(){
-	e.preventdefault();
+setTimeout(function(){
     location.href = "views/home.html";
-};
-$(document).ready(cargarPagina);
+  },4000)
